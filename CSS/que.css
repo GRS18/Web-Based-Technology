@@ -1,0 +1,26 @@
+h2 {
+  text-decoration-line: underline;
+}
+form {
+  width: 500px;
+  margin: auto;
+}
+b {
+  background-color: blanchedalmond;
+  text-transform: uppercase;
+}
+div {
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+button {
+  background-color: burlywood;
+  color: black;
+  font-size: larger;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}

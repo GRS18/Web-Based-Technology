@@ -1,0 +1,28 @@
+/*Element Selector*/
+h1 {
+  color: blue;
+}
+/*Class Selector*/
+.d1 {
+  background-color: bisque;
+}
+
+/*id Selector*/
+#i1 {
+  background-color: cadetblue;
+}
+#i2 {
+  border: 2px dotted brown;
+}
+
+/*Group Selector*/
+h3,
+p,
+a {
+  color: crimson;
+}
+
+/*Universal Selector*/
+* {
+  border: 2px solid black;
+}

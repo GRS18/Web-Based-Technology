@@ -1,0 +1,25 @@
+/*External CSS*/
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  color: cornflowerblue !important;
+}
+
+div {
+  /*RGB - RED GREEN BLUE*/
+  background-color: rgb(255, 183, 0);
+  color: rgb(98, 0, 255);
+}
+
+H3 {
+  /*RGBA - RED GREEN BLUE ALPHA*/
+  background-color: rgba(167, 167, 167, 0.915);
+}
+
+#d1 {
+  /*Hexadecimal colors*/
+  background-color: #dad7cd;
+  color: #582f0e;
+}

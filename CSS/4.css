@@ -1,0 +1,86 @@
+/*text-align*/
+h1 {
+  text-align: center;
+}
+/* p {
+  text-align: center;
+} */
+/* p {
+  text-align: end;
+} */
+p {
+  text-align: start;
+}
+
+/*text-Decoration*/
+p {
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  /* text-decoration-style: double;
+  text-decoration-style: dashed;
+  text-decoration-style: dotted;
+  text-decoration-style: solid; */
+  text-decoration-style: wavy;
+}
+/* p{
+    text-decoration-line:overline;
+} */
+/* p{
+    text-decoration-line:line-through; 
+} */
+
+/*Font Size*/
+p {
+  font-size: large;
+  /* font-size:larger;
+    font-size:medium;
+    font-size:small;
+    font-size:smaller;
+    font-size:x-large;
+    font-size:x-small;
+    font-size:xx-large;
+    font-size:xx-small; */
+}
+
+p {
+  text-indent: 50px; /*Space given before Starting paragaraph*/
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  line-height: 20px;
+}
+
+p {
+  text-transform: capitalize;
+  /* text-transform: lowercase;
+  text-transform: uppercase; */
+}
+
+/*change font of text*/
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Text shadow*/
+h1 {
+  text-shadow: 2px 2px brown;
+}
+p {
+  text-shadow: 5px 5px 5px;
+}
+
+/*to remove uderline under the link given in ancher tag*/
+a {
+  text-decoration: none;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~Boxing~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  */
+h1 {
+  width: 200px;
+  height: 50px;
+}
+
+div {
+  background-color: aquamarine;
+}
+p {
+  padding: left;
+}

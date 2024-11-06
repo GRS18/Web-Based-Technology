@@ -1,0 +1,28 @@
+#header {
+  color: black;
+  background-color: antiquewhite;
+}
+.sm1 {
+  font-size: x-small;
+}
+footer {
+  color: black;
+  background-color: antiquewhite;
+}
+h2 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+div {
+  background-color: floralwhite;
+}
+body {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(169, 169, 169, 0.342);
+}
+#desc {
+  margin-top: 10px;
+}

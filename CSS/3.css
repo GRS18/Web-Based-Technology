@@ -1,0 +1,19 @@
+/*Desendant Selector*/
+/* section p {
+  color: brown;
+} */
+
+/* child Selector
+section > p {
+  color: chocolate;
+} */
+
+/* Adjecent Siblings Selectors
+section + p {
+  color: aquamarine;
+} */
+
+/* general siblings selectors 
+section ~ p {
+  color: blueviolet;
+} */
