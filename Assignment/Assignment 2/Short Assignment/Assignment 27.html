@@ -1,0 +1,42 @@
+<!-- generate ul li tag with city name & apply background color grey to first & last li
+[note: use filter in css ] -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 27</title>
+    <style>
+        ul {
+            list-style-type: none;
+            /* Removes default list bullets */
+            padding: 0;
+        }
+        
+        li:first-child,
+        li:last-child {
+            background-color: grey;
+            color: white;
+            /* Optional: make text color white for better contrast */
+            padding: 10px;
+        }
+        
+        li:hover {
+            font-size: medium;
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>Pune</li>
+        <li>Kattaj</li>
+        <li>Kondhwa</li>
+        <li>Yewlewadi</li>
+        <li>Shantinagar</li>
+    </ul>
+</body>
+
+</html>
