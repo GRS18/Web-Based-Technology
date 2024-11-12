@@ -1,0 +1,27 @@
+<!-- create a textbox (with id txt). create a paragraph (having id para ). onclick event get value from textbox
+and display it within paragraph ( hint: you may use innerText or innerHTML , get the diff. between
+innerText,innerHTML)
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textbox and Paragraph</title>
+    <script>
+        function displayValue() {
+            const txtValue = document.getElementById('txt').value;
+            document.getElementById('para').innerText = txtValue;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="txt" />
+    <button onclick="displayValue()">Display</button>
+    <p id="para"></p>
+</body>
+
+</html>

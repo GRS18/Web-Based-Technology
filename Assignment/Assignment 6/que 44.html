@@ -1,0 +1,24 @@
+<!--create an array with any three value . on button click add value 20 within an array (i.e at start position) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Value to Start</title>
+    <script>
+        const arr = [1, 2, 3];
+
+        function addValue() {
+            arr.unshift(20);
+            console.log(arr);
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="addValue()">Add 20 at Start</button>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!-- create a textbox (with id txt). create a paragraph (having id para ).onclick event get only number from
+textbox & display square of the no which you have entered ( hint: use Math library ) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square of Number</title>
+    <script>
+        function displaySquare() {
+            const txtValue = document.getElementById('txt').value;
+            const number = parseFloat(txtValue);
+            if (!isNaN(number)) {
+                document.getElementById('para').innerText = Math.pow(number, 2);
+            } else {
+                document.getElementById('para').innerText = "Please enter a valid number";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="txt" />
+    <button onclick="displaySquare()">Calculate Square</button>
+    <p id="para"></p>
+</body>
+
+</html>

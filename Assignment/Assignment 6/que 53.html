@@ -1,0 +1,28 @@
+<!-- generate an array with value [1,4,6,8,12,11,13] and show the resuke as new array=> [1,11,14] using filter()
+function of javascript-->
+<script>
+    var arr = [1, 2, 3, 4];
+    var newArr = [];
+
+    for (let i in arr) {
+        newArr.push(arr[i] * arr[i]);
+    }
+
+    console.log(newArr);
+
+
+
+    arr.forEach(function(value) {
+        newArr.push(value * value);
+    });
+
+    console.log(newArr);
+
+
+
+
+    var arr = [1, 2, 3, 4];
+    var newArr = arr.map(value => value * value);
+
+    console.log(newArr);
+</script>

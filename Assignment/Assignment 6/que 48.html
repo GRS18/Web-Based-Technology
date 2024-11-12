@@ -1,0 +1,25 @@
+<!-- Create a text box, get value from the same. Do the validation for mobile number & show result in paragraph (below textbox). -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Validation</title>
+    <script>
+        function validateMobile() {
+            const mobile = document.getElementById('txt').value;
+            const regex = /^[0-9]{10}$/;
+            const result = regex.test(mobile) ? "Valid Mobile Number" : "Invalid Mobile Number";
+            document.getElementById('para').innerText = result;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="txt" />
+    <button onclick="validateMobile()">Validate Mobile</button>
+    <p id="para"></p>
+</body>
+
+</html>

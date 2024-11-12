@@ -1,0 +1,27 @@
+<!--create a text box , get value from the same. do the validation for mobile number & show result in paragraph
+( below textbox)-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Validation</title>
+    <script>
+        function validateName() {
+            const name = document.getElementById('txt').value;
+            const regex = /^[A-Za-z ]+$/;
+            const result = regex.test(name) ? "Valid Name" : "Invalid Name";
+            document.getElementById('para').innerText = result;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="txt" />
+    <button onclick="validateName()">Validate Name</button>
+    <p id="para"></p>
+</body>
+
+</html>

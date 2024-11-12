@@ -1,0 +1,24 @@
+<!--create an array with any five value . on button click remove first value -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove First Value</title>
+    <script>
+        const arr = [10, 20, 30, 40, 50];
+
+        function removeFirst() {
+            arr.shift();
+            console.log(arr);
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="removeFirst()">Remove First Value</button>
+</body>
+
+</html>

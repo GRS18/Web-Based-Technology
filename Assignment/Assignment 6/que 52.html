@@ -1,0 +1,22 @@
+<!-- generate an array with value [1,2,3,4] and show the result as new array=> [1,4,9,16] using for in loop ,
+forEach loop and map() function -->
+
+<script>
+    const arr = [1, 2, 3, 4];
+
+
+    const resultForIn = [];
+    for (let index in arr) {
+        resultForIn.push(arr[index] ** 2);
+    }
+    console.log("For-in loop result:", resultForIn);
+
+
+    const resultForEach = [];
+    arr.forEach(value => resultForEach.push(value ** 2));
+    console.log("ForEach loop result:", resultForEach);
+
+
+    const resultMap = arr.map(value => value ** 2);
+    console.log("Map function result:", resultMap);
+</script>

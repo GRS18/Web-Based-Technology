@@ -1,0 +1,26 @@
+<!-- create an array with five value (i.e 10,20,30,40,50) . now search value 10 & 100 from the given array &
+print its position.-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+    <script>
+        function validateEmail() {
+            const email = document.getElementById('txt').value;
+            const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            const result = regex.test(email) ? "Valid Email Address" : "Invalid Email Address";
+            document.getElementById('para').innerText = result;
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="txt" />
+    <button onclick="validateEmail()">Validate Email</button>
+    <p id="para"></p>
+</body>
+
+</html>
