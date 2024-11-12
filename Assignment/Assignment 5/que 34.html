@@ -1,0 +1,38 @@
+<!--  create a textbox (with id txt) & get value.
+if the value is string then show error in paragraph as only number is required. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check for Number</title>
+</head>
+
+<body>
+
+
+    <input type="text" id="txt" placeholder="Enter a number">
+
+
+    <button onclick="checkIfNumber()">Check Value</button>
+
+    <p id="error"></p>
+
+    <script>
+        function checkIfNumber() {
+            var value = document.getElementById('txt').value;
+
+            if (isNaN(value) || value === "") {
+
+                document.getElementById('error').innerHTML = "Error: Only numbers are allowed.";
+            } else {
+
+                document.getElementById('error').innerHTML = "";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!--  create a textbox (with id txt) & get value from textbox , in case textbox is empty then please show textbox
+border with color red & border width 2px.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Empty Textbox</title>
+    <style>
+        #txt {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <input type="text" id="txt" placeholder="Enter something">
+
+
+    <button onclick="checkTextbox()">Check Textbox</button>
+
+    <script>
+        function checkTextbox() {
+            var textbox = document.getElementById('txt');
+            var value = textbox.value;
+
+            if (value === "") {
+                textbox.style.border = "2px solid red";
+            } else {
+
+                textbox.style.border = "1px solid black";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

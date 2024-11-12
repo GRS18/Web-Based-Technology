@@ -1,0 +1,31 @@
+<!-- create a paragraph , on mouseover apply background color (grey) & onmouseout apply background color
+(lightgrey) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseover and Mouseout Background Color</title>
+</head>
+
+<body>
+
+    <p id="hoverParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, nulla iusto qui quae saepe earum recusandae reiciendis minima quibusdam est veritatis corporis ipsam maiores voluptate voluptates blanditiis non, repellendus laudantium.</p>
+
+    <script>
+        const paragraph = document.getElementById("hoverParagraph");
+
+
+        paragraph.addEventListener("mouseover", function() {
+            paragraph.style.backgroundColor = "grey";
+        });
+
+
+        paragraph.addEventListener("mouseout", function() {
+            paragraph.style.backgroundColor = "lightgrey";
+        });
+    </script>
+</body>
+
+</html>

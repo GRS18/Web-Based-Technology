@@ -1,0 +1,32 @@
+<!--  create a paragraph with some dummy content , on hover apply grey color & on mouse out apply blue color -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Color on Hover</title>
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p id="para" onmouseover="changeToGrey()" onmouseout="changeToBlue()">This is some dummy content in the paragraph.</p>
+
+    <script>
+        function changeToGrey() {
+            document.getElementById("para").style.color = "grey";
+        }
+
+
+        function changeToBlue() {
+            document.getElementById("para").style.color = "blue";
+        }
+    </script>
+</body>
+
+</html>
